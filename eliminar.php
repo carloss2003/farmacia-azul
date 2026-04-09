@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("172.31.16.172", "root", "CruzAzul2026!", "farmacia");
+$conn = new mysqli("34.205.104.220", "root", "CruzAzul2026!", "farmacia");
 
 if ($conn->connect_error) {
     die("Error conexión");
